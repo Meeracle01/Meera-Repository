@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>page title</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header><h1 id="header">Header</h1></header>
+<section>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Articles</a></li>
+</ul>
+</nav>
+<article>
+<img src="./LOTUS.jpg" alt="Pretty Flower" style="width:300px;height:200px;">
+<h2>Pretty Flower</h2>
+<p>Pretty Flower...</p>
+<a href="https://en.wikipedia.org/wiki/Nelumbo_nucifera">Here's all the info you need...</a>
+</article>
+<aside id="aside">
+<h2>Related</h2>
+<ul>
+<li><a href="#">Article 1</a></li>
+<li><a href="#">Article 2</a></li>
+</ul>
+</aside>
+</section>
+<br>
+<h1>Sign up to win a Free Lotus Seed Kit</h1>
+<div>
+<label for="firstName">First name:</label><br>
+ <input type="text" id="firstName"
+name="firstName" value="Joel">
+ </div>
+<div>
+<label for="lastName">Last name:</label><br>
+<input type="text" id="lastName"
+name="lastName" value="Doe">
+</div>
+<div>
+<label for="houseNo">House No:</label><br>
+<input type="text" id="houseNo"
+name="lastName" value="123">
+</div>
+<div>
+<label for="StreetName">House No:</label><br>
+<input type="text" id="StreetName"
+name="StreetName" value="Burning Ave">
+</div>
+<input type="submit" value="Submit">
+</form>
+<button onclick="Ordernow()">Order Now</button>
+<script>
+    function Ordernow(){
+    alert('Your Order will be shipped soon')
+    }
+    console.log('this is a Message')
+console.info('this is info')
+console.warn('this is a warning')
+console.error('this is an error');
+function Sum(a,b)
+{
+    return a+b
+}
+function ShowAlert()
+{
+    alert (sum(4.5).10)
+}
+    </script>
+<footer>
+<p>@copyright 2050 by nobody. all rights
+reversed</p>
+</footer>
+<script>
+document.getElementById("header").innerText =
+'Hello JavaScript';
+document.getElementById("aside").style.backgroundColor =
+'green';
+</script>
+</body>
+</html>

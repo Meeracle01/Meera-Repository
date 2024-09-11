@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Module 1 Exercise 3</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin:
+                0;
+        }
+
+        .container {
+            display: flex;
+            min-height:
+                100vh;
+            align-items: stretch;
+        }
+
+        .column {
+            background: black;
+            display:
+                flex;
+            flex-direction: column;
+            justify-content:
+                center;
+            align-items: center;
+            flex:
+                1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="column" id="column1">
+            <h1 id="heading1">SUN</h1>
+            <img src = "Ssun.jpg">
+            <button onclick="changeme1()">Change Me</button>
+               
+        </div>
+
+        <div class="column" id="column2">
+            <h1 id="heading2">MOON</h1>
+            <img src = "Moon.jpg">
+            <button onclick="ChangeMe2()">Change Me</button>
+        </div>
+    </div>
+    
+    <script> function changeme1() {
+        document.getElementById("column1").style.backgroundColor='green'}
+        </script>
+
+<script>function ChangeMe2() {
+    document.getElementById("column2").style.backgroundColor='White'}
+    </script>
+</body>
+
+</html>      
