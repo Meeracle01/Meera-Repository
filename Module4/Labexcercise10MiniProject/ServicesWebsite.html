@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Marketplace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-title,
+        .card-text {
+            text-align: center;
+        }
+
+        .btn {
+            margin-top: auto;
+        }
+
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .dropdown-box {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .services {
+            margin-top: 20px;
+        }
+
+        .homepage-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <div class="row align-items-center">
+            <div class="col-md-3 logo">
+                <img src="Housecall logo2.png" alt="Logo">
+            </div>
+
+
+            <div class="col-md-9 text-end">
+                <button class="btn btn-dark">Register as a Professional</button>
+                <a href="login.html" class="btn btn-primary">Sign Up/Login</a>
+                <button class="btn btn-secondary">Help</button>
+            </div>
+        </div>
+
+
+        <div class="row my-4">
+            <div class="col-md-9">
+                <img src="https://truecolorshairsalon.com/wp-content/uploads/2021/10/services-hair-design.jpg"
+                    alt="Main Image" class="homepage-img">
+            </div>
+            <div class="col-md-3">
+                <div class="dropdown-box">
+                    <div class="mb-4">Where do you need a service?</div>
+                    <select id="citySelect" class="form-select" onchange="showServices()">
+                        <option>Select Your City</option>
+                        <option value="Auckland">Auckland</option>
+                        <option value="Wellington">Wellington</option>
+                        <option value="Christchurch">Christchurch</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <h3 class="text-center">Services Offered</h3>
+        <div id="card-container" class="row services"></div>
+
+
+        <div id="service-details" class="text-center my-4"></div>
+    </div>
+
+    <script>
+        const services = {
+            Auckland: [
+                {
+                    cardtitle: 'Electrician',
+                    cardDescription: 'Best electricians at your service!',
+                    url: 'https://cdn.pixabay.com/photo/2024/07/01/20/41/ai-generated-8866051_640.jpg',
+                    address: '123 Queen Street, Auckland',
+                    contact: '0800 123 456',
+                    isSalon: false
+                },
+                {
+                    cardtitle: 'Salon for Women',
+                    cardDescription: 'Pamper yourself with our salon services.',
+                    url: 'https://www.shutterstock.com/image-photo/beautiful-woman-clean-fresh-skin-260nw-1661465083.jpg',
+                    address: '456 King Street, Auckland',
+                    contact: '0800 654 321',
+                    isSalon: true
+                }
+            ],
+            Wellington: [
+                {
+                    cardtitle: 'Cleaning Services',
+                    cardDescription: 'Book in advance easily',
+                    url: 'https://cdn.prod.website-files.com/60ff934f6ded2d17563ab9dd/61392e6b85cca9544875c7d2_shutterstock_589490129.jpeg',
+                    address: '789 Courtenay Place, Wellington',
+                    contact: '0800 111 222',
+                    isSalon: false
+                }
+            ],
+            Christchurch: [
+                {
+                    cardtitle: 'Pest Control',
+                    cardDescription: 'Get rid of pests hassle-free',
+                    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4tspuipeUeW4F2XwGQQUXyAcMp-SC6dsRAw&s',
+                    address: '321 Victoria Street, Christchurch',
+                    contact: '0800 987 654',
+                    isSalon: false
+                }
+            ]
+        };
+
+        function showAllServices() {
+            const cardContainer = document.getElementById('card-container');
+            cardContainer.innerHTML = '';
+            Object.keys(services).forEach(city => {
+                services[city].forEach(service => {
+                    const cardHTML = `
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex">
+                            <div class="card" style="width: 18rem;">
+                                <img src="${service.url}" class="card-img-top" alt="${service.cardtitle}">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">${service.cardtitle}</h5>
+                                    <p class="card-text">${service.cardDescription}</p>
+                                    <a href="#" class="btn btn-primary mt-auto" onclick="showDetails('${service.cardtitle}', '${service.address}', '${service.contact}', ${service.isSalon})">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    cardContainer.innerHTML += cardHTML;
+                });
+            });
+        }
+
+        function showServices() {
+            const selectedCity = document.getElementById('citySelect').value;
+            const cardContainer = document.getElementById('card-container');
+            cardContainer.innerHTML = '';
+
+            if (services[selectedCity]) {
+                services[selectedCity].forEach(service => {
+                    const cardHTML = `
+                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex">
+                            <div class="card" style="width: 18rem;">
+                                <img src="${service.url}" class="card-img-top" alt="${service.cardtitle}">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">${service.cardtitle}</h5>
+                                    <p class="card-text">${service.cardDescription}</p>
+                                    <a href="#" class="btn btn-primary mt-auto" onclick="showDetails('${service.cardtitle}', '${service.address}', '${service.contact}', ${service.isSalon})">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    cardContainer.innerHTML += cardHTML;
+                });
+            } else {
+                showAllServices();
+            }
+        }
+
+        function showDetails(title, address, contact, isSalon) {
+            const serviceDetails = document.getElementById('service-details');
+            serviceDetails.innerHTML = `
+                <h4>Service: ${title}</h4>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>Contact:</strong> ${contact}</p>
+            `;
+            if (isSalon) {
+                serviceDetails.innerHTML += `
+                    <button class="btn btn-primary">Book a Home Visit</button>
+                    <button class="btn btn-secondary">Book an Appointment</button>
+                `;
+            } else {
+                serviceDetails.innerHTML += `<button class="btn btn-primary">Book a Home Visit</button>`;
+            }
+        }
+
+
+        showAllServices();
+    </script>
+</body>
+
+</html>

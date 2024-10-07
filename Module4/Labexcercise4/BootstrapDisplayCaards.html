@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <style>
+        .card-image-top{
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-body {
+            flex-grow: 1;
+        display: flex;
+    flex-direction: column;
+justify-content: space-between;
+        }
+
+        .card-title, .card-text {
+
+            text-align:center;
+        }
+
+      .btn{
+            margin-top: auto;
+        }
+    </style>
+</head>   
+</body>
+
+<div>
+    <div class = "row" id="card-container">
+    </div>
+</div>
+
+<script>
+    const data = [
+        {cardtitle: 'Salon Services Women', cardDescription: 'Salon Services at your doorstep', url:'https://www.shutterstock.com/image-photo/beautiful-woman-clean-fresh-skin-260nw-1661465083.jpg'},
+        {cardtitle: 'Salon Services Men', cardDescription: 'Salon Services at your doorstep', url:'https://www.shutterstock.com/image-photo/closeup-photo-macho-guy-perfect-260nw-1578765427.jpg'},
+        {cardtitle: 'Cleaning Services', cardDescription: 'Book in advance easily', url:'https://media.istockphoto.com/id/1433923860/photo/concept-of-cleaning-service-during-the-new-year-holidays.jpg?s=612x612&w=0&k=20&c=ZfYYr_fjD1Uyowo-FiPC4eADErU3b2d2g_blWHULnQE='},
+        {cardtitle: 'Pest Control', cardDescription: 'Get rid of pests Hassle-free', url:'https://media.istockphoto.com/id/1414982124/photo/isinfection-of-premises-from-insects-and-rodents-with-chemicals.jpg?s=612x612&w=0&k=20&c=Ya8Il4j2Zq9qlVUdDOPY1jn2qSV0HBfn6IJpK9Yak5w='},
+        {cardtitle: 'Electrician', cardDescription: 'Heaps of  availablility', url:'https://cdn.pixabay.com/photo/2024/07/01/20/41/ai-generated-8866051_640.jpg'},
+        {cardtitle: 'Plumbers', cardDescription: 'Same day visit in case of emergency', url:'https://img.freepik.com/premium-photo/plumber-using-wrench-repair-water-pipe-sink_101448-3422.jpg'},
+        {cardtitle: 'AC & Appliance repair', cardDescription: 'From AC to any appliance repair at best prices', url:'https://media.istockphoto.com/id/1278295822/photo/technician-services-outside-ac-units-and-generator.jpg?s=612x612&w=0&k=20&c=TvskULlRtqQgxgns6lWaRtUzi5G60KMgzzs05K85-Pw='},
+        {cardtitle: 'Painting & Water proofing', cardDescription: 'Best rates all season hassle-free', url:'https://i0.wp.com/www.institutedata.com/wp-content/uploads/2019/04/PTC-1-848-Data-Science-Shop.png?w=500&ssl=1'},
+        
+];
+
+const cardContainer = document.getElementById('card-container');
+
+
+function createCards() {
+        data.forEach(item => {
+            const cardHTML = `
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex">
+                <div class="card" style="width: 18rem;">                                                                                                                                                                                                                                                                     
+                    <img src="${item.url}" class="card-img-top" alt="${item.cardtitle}">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">${item.cardtitle}</h5>
+                        <p class="card-text">${item.cardDescription}</p>
+                        <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            `;
+            cardContainer.innerHTML += cardHTML;
+        });
+    }
+
+
+    createCards();
+</script>
+
+</body>
+</html>

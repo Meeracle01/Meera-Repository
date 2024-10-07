@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Calculator</h1>
+
+<form>
+
+    <label for="num1">First Number:</label>
+    <input type="text" id="num1" name="num1"> <br><br>
+
+
+  <label for="operator">Choose an operation:</label>
+  <select name="operator" id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <br><br>
+
+  <label for="num2">Second Number:</label>
+  <input type="text" id="num2" name="num2"> <br><br>
+
+  <input type="button" value="=" onclick="operatorSelected()">
+  <br><br>
+  <div>Result: <span id="result"></span></div>
+</form>
+
+</body>
+
+<script>
+function operatorSelected()
+{
+
+  
+   let num1 = parseFloat(document.getElementById("num1").value);
+   let num2 = parseFloat(document.getElementById("num2").value);
+
+   let x = document.getElementById("operator").value;
+
+   let result;
+
+   if(x =="+")
+{
+
+    result = num1 + num2;
+
+}
+   else if(x=="-")
+{
+    result = num1 - num2;
+}
+    else if(x=="*")
+{ 
+    result = num1*num2;
+ 
+}
+
+    else if(x=="/") 
+{ 
+    if (num2 !==0){
+        result = num1/num2;
+    } else {
+        result = "Cannot divide by zero";
+    }
+    
+}
+
+document.getElementById("result").textContent = result;
+
+}
+</script>
+</html>
+
+  

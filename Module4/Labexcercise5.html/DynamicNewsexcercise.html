@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic News Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+   
+        .card {
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="news-list" class="row justify-content-center"></div>
+
+     
+        <div class="row justify-content-center mt-4">
+            <button class="btn btn-primary col-2 mx-2" onclick="previousNews()">Previous News</button>
+            <button class="btn btn-secondary col-2 mx-2" onclick="nextNews()">Next News</button>
+        </div>
+    </div>
+
+
+    <template id="news-template">
+        <div class="card col-8" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">News title</h5>
+                <p class="card-text">News text.</p>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        
+        let news = [
+            { 
+                id: 1, title: 'New News', content: "Newly elected minister..."
+
+            },
+
+            {
+                id: 2, title: 'Kickboxing', content: "World Cup winners..."
+            },
+
+            {
+                id: 3, title: 'Tornado Warning', content: "Residents should prepare..."
+            },
+
+            {
+                id: 4, title: 'Tech News', content: "Latest in the tech industry..."
+            },
+            {
+                id: 5, title: 'Weather Update', content: "Expect sunny skies this weekend."
+            },
+
+            {
+                id: 6, title: 'Market Update', content: "Stock market continues to rise."
+            }
+        ];
+
+        let currentNewsIndex = 0; 
+
+        function getCurrentNews() {
+            return news.slice(currentNewsIndex, currentNewsIndex + 3);
+        }
+
+        function clearNews() {
+            document.getElementById('news-list').innerHTML = '';
+        }
+
+        function addCard(newsItem) {
+            const template = document.getElementById("news-template").content.cloneNode(true);
+            template.querySelector('.card-title').innerText = newsItem.title;
+            template.querySelector('.card-text').innerText = newsItem.content;
+            document.querySelector('#news-list').appendChild(template);
+        }
+
+        function updateNews() {
+            clearNews();
+            const currentNews = getCurrentNews();
+            currentNews.forEach(newsItem => addCard(newsItem));
+        }
+
+
+        function nextNews() {
+            currentNewsIndex = (currentNewsIndex + 3) % news.length;  
+            updateNews();  
+        }
+
+        
+        function previousNews() {
+            currentNewsIndex = (currentNewsIndex - 3 + news.length) % news.length;  
+            updateNews();  
+        }
+
+      
+        setInterval(() => {
+            nextNews();
+        }, 5000);
+
+      
+        updateNews();
+    </script>
+</body>
+</html>
