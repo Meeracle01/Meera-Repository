@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Front end</title>
+</head>
+
+<body>
+    <div>
+        <h1>Calculator Sample</h1>
+    </div>
+    <div>
+        <div>
+            <label>Number1:</label><input type="text" id="num1">
+        </div>
+        <div>
+            <label>Number2:</label><input type="text" id="num2">
+        </div>
+        <div>
+            <label>Select Operator</label>
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+        <div>
+            <button onclick="doCalculation()">Calculate</button>
+        </div>
+        <div>
+            <label>Result: </label><label id="result"></label>
+        </div>
+    </div>
+</body>
+
+<script>
+    function doCalculation() {
+        // Fetching the inputs and operator value
+        let number1 = document.getElementById("num1").value;
+        let number2 = document.getElementById("num2").value;
+        let operator = document.getElementById("operator").value;
+
+        // Based on the operator, perform the respective calculation
+        if (operator == "+") {
+            fetch(`http://localhost:3000/Calculate/Add?num1=${number1}&num2=${number2}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerText = data.res;
+                });
+        }
+
+        if (operator == "-") {
+            fetch(`http://localhost:3000/Calculate/Subtract?num1=${number1}&num2=${number2}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerText = data.res;
+                });
+        }
+
+        if (operator == "*") {
+            fetch(`http://localhost:3000/Calculate/Multiply?num1=${number1}&num2=${number2}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerText = data.res;
+                });
+        }
+
+        if (operator == "/") {
+            fetch(`http://localhost:3000/Calculate/Divide?num1=${number1}&num2=${number2}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerText = data.res;
+                });
+        }
+    }
+</script>
+
+</html>
