@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Front end</title>
+</head>
+
+<body>
+    <div>
+        <h1>Calculator Sample</h1>
+    </div>
+    <div>
+        <div>
+            <label>Number1:</label><input type="text" id="num1">
+        </div>
+        <div>
+            <label>Number2:</label><input type="text" id="num2">
+        </div>
+        <div>
+            <label>Select Operator</label>
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+        <div>
+            <button onclick="doCalculation()">Calculate</button>
+        </div>
+        <div>
+            <label>Result: </label><label id="result"></label>
+        </div>
+    </div>
+</body>
+
+<script>
+    function doCalculation() {
+      
+        let number1 = document.getElementById("num1").value;
+        let number2 = document.getElementById("num2").value;
+        let operator = document.getElementById("operator").value;
+
+        
+        let endpoint;
+        switch (operator) {
+            case "+":
+                endpoint = "/calculator/Add";
+                break;
+            case "-":
+                endpoint = "/calculator/Subtract";
+                break;
+            case "*":
+                endpoint = "/calculator/Multiply";
+                break;
+            case "/":
+                endpoint = "/calculator/Divide";
+                break;
+        }
+
+        fetch(`${endpoint}?num1=${number1}&num2=${number2}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerText = data.res;
+            });
+    }
+</script>
+
+</html>

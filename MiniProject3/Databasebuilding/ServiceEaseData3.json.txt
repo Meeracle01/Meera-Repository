@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Glam Nails",
+        "contact": "0216547821",
+        "email": "glamnails@example.com",
+        "location": "Auckland",
+        "category": "Nails",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Polished Perfection",
+        "contact": "0218476592",
+        "email": "polishedperfection@example.com",
+        "location": "Christchurch",
+        "category": "Nails",
+        "rating": 4.7,
+        "priceRange": "$"
+    },
+    {
+        "name": "Auckland Nail Studio",
+        "contact": "0212387654",
+        "email": "aucklandnailstudio@example.com",
+        "location": "Auckland",
+        "category": "Nails",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Glow Nail Bar",
+        "contact": "0214561238",
+        "email": "glownailbar@example.com",
+        "location": "Wellington",
+        "category": "Nails",
+        "rating": 4.9,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "Crafted Woodworks",
+        "contact": "0217845632",
+        "email": "craftedwoodworks@example.com",
+        "location": "Wellington",
+        "category": "Carpentry",
+        "rating": 4.5,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "Precision Carpentry",
+        "contact": "0216754839",
+        "email": "precisioncarpentry@example.com",
+        "location": "Christchurch",
+        "category": "Carpentry",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Glow Beauty Studio",
+        "contact": "0218945726",
+        "email": "glowbeautystudio@example.com",
+        "location": "Auckland",
+        "category": "Women's Salon Services",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "Bliss Women's Salon",
+        "contact": "0214589631",
+        "email": "blisswomenssalon@example.com",
+        "location": "New Plymouth",
+        "category": "Women's Salon Services",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Groom Barber Co.",
+        "contact": "0214578963",
+        "email": "groombarberco@example.com",
+        "location": "Wellington",
+        "category": "Men's Salon Services",
+        "rating": 4.5,
+        "priceRange": "$"
+    },
+    {
+        "name": "The Men's Lounge",
+        "contact": "0218745632",
+        "email": "themenslounge@example.com",
+        "location": "Christchurch",
+        "category": "Men's Salon Services",
+        "rating": 4.8,
+        "priceRange": "$$$"
+    }
+]

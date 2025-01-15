@@ -1,0 +1,92 @@
+[
+    {
+        "name": "EcoScape Gardening",
+        "contact": "0216542387",
+        "email": "ecoscapegardening@example.com",
+        "location": "Auckland",
+        "category": "Gardening",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Verdant Landscapes",
+        "contact": "0218746523",
+        "email": "verdantlandscapes@example.com",
+        "location": "New Plymouth",
+        "category": "Gardening",
+        "rating": 4.6,
+        "priceRange": "$"
+    },
+    {
+        "name": "PrimeCoat Painting",
+        "contact": "0213569874",
+        "email": "primecoatpainting@example.com",
+        "location": "Christchurch",
+        "category": "Painting",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Fine Finish Painters",
+        "contact": "0219485726",
+        "email": "finefinishpainters@example.com",
+        "location": "Wellington",
+        "category": "Painting",
+        "rating": 4.9,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "TopTier Home Repair",
+        "contact": "0214356729",
+        "email": "toptierhomerepair@example.com",
+        "location": "Auckland",
+        "category": "Renovation & Home Repair",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "QuickFix Home Services",
+        "contact": "0216574839",
+        "email": "quickfixhomeservices@example.com",
+        "location": "New Plymouth",
+        "category": "Renovation & Home Repair",
+        "rating": 4.8,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "UrbanFlow NZ",
+        "contact": "0218934762",
+        "email": "urbanflownz@example.com",
+        "location": "Wellington",
+        "category": "Plumbing",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Total Plumbing Solutions",
+        "contact": "0213567842",
+        "email": "totalplumbingsolutions@example.com",
+        "location": "Christchurch",
+        "category": "Plumbing",
+        "rating": 4.5,
+        "priceRange": "$"
+    },
+    {
+        "name": "Urban Nail Lounge",
+        "contact": "0216789432",
+        "email": "urbannaillounge@example.com",
+        "location": "Wellington",
+        "category": "Nails",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Pretty Nails Studio",
+        "contact": "0217856349",
+        "email": "prettynailsstudio@example.com",
+        "location": "New Plymouth",
+        "category": "Nails",
+        "rating": 4.9,
+        "priceRange": "$$$"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "CraftMasters Carpentry",
+        "contact": "0214527839",
+        "email": "craftmasterscarpentry@example.com",
+        "location": "Auckland",
+        "category": "Carpentry",
+        "rating": 4.8,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "Urban Woodworks NZ",
+        "contact": "0216873495",
+        "email": "urbanwoodworksnz@example.com",
+        "location": "New Plymouth",
+        "category": "Carpentry",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Radiance Beauty NZ",
+        "contact": "0217896543",
+        "email": "radiancebeautynz@example.com",
+        "location": "Christchurch",
+        "category": "Women's Salon Services",
+        "rating": 4.9,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "PerfectGlow Salon",
+        "contact": "0218745639",
+        "email": "perfectglowsalon@example.com",
+        "location": "Wellington",
+        "category": "Women's Salon Services",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Gentlemen's Grooming Co.",
+        "contact": "0215478936",
+        "email": "gentlemensgrooming@example.com",
+        "location": "Auckland",
+        "category": "Men's Salon Services",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "SharpLook Barbers",
+        "contact": "0217864539",
+        "email": "sharplookbarbers@example.com",
+        "location": "New Plymouth",
+        "category": "Men's Salon Services",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Verdant Bliss Landscaping",
+        "contact": "0216583742",
+        "email": "verdantblisslandscaping@example.com",
+        "location": "Auckland",
+        "category": "Gardening",
+        "rating": 4.9,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "EliteWood Co.",
+        "contact": "0213498721",
+        "email": "elitewoodco@example.com",
+        "location": "Christchurch",
+        "category": "Carpentry",
+        "rating": 4.8,
+        "priceRange": "$"
+    },
+    {
+        "name": "Nail Bliss Co.",
+        "contact": "0215467839",
+        "email": "nailblissco@example.com",
+        "location": "Wellington",
+        "category": "Nails",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Urban Builders NZ",
+        "contact": "0217894563",
+        "email": "urbanbuildersnz@example.com",
+        "location": "Auckland",
+        "category": "Renovation & Home Repair",
+        "rating": 4.6,
+        "priceRange": "$$"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "ProPaint NZ",
+        "contact": "0219871234",
+        "email": "propaintnz@example.com",
+        "location": "Auckland",
+        "category": "Painting",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "ColorCoat Painters",
+        "contact": "0215639281",
+        "email": "colorcoatpainters@example.com",
+        "location": "Wellington",
+        "category": "Painting",
+        "rating": 4.4,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "BrightWall Painting",
+        "contact": "0213247856",
+        "email": "brightwallpainting@example.com",
+        "location": "Christchurch",
+        "category": "Painting",
+        "rating": 4.7,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Auckland Painters Pro",
+        "contact": "0216583942",
+        "email": "aucklandpainterspro@example.com",
+        "location": "Auckland",
+        "category": "Painting",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "HomeFix NZ",
+        "contact": "0211234569",
+        "email": "homefixnz@example.com",
+        "location": "Wellington",
+        "category": "Renovation & Home Repair",
+        "rating": 4.5,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Elite Renovators",
+        "contact": "0217896543",
+        "email": "eliterenovators@example.com",
+        "location": "New Plymouth",
+        "category": "Renovation & Home Repair",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "PipeWorks Plumbing",
+        "contact": "0216549873",
+        "email": "pipeworksplumbing@example.com",
+        "location": "Auckland",
+        "category": "Plumbing",
+        "rating": 4.6,
+        "priceRange": "$$"
+    },
+    {
+        "name": "FlowFix Plumbers",
+        "contact": "0217845692",
+        "email": "flowfixplumbers@example.com",
+        "location": "Christchurch",
+        "category": "Plumbing",
+        "rating": 4.4,
+        "priceRange": "$"
+    },
+    {
+        "name": "AquaPro Plumbing",
+        "contact": "0217983451",
+        "email": "aquaprop@example.com",
+        "location": "Wellington",
+        "category": "Plumbing",
+        "rating": 4.5,
+        "priceRange": "$$"
+    },
+    {
+        "name": "QuickFix Plumbers",
+        "contact": "0219867542",
+        "email": "quickfixplumbers@example.com",
+        "location": "New Plymouth",
+        "category": "Plumbing",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    }
+]

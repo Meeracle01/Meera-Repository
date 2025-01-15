@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Sparkle Cleaning Services",
+        "contact": "0216543210",
+        "email": "sparklecleaningservices@example.com",
+        "location": "Auckland",
+        "category": "Cleaning",
+        "rating": 4.5,
+        "priceRange": "$$"
+    },
+    {
+        "name": "BrightClean Co.",
+        "contact": "0211234567",
+        "email": "brightcleanco@example.com",
+        "location": "Wellington",
+        "category": "Cleaning",
+        "rating": 4.2,
+        "priceRange": "$"
+    },
+    {
+        "name": "ShinePro Cleaners",
+        "contact": "0217845269",
+        "email": "shineprocleaners@example.com",
+        "location": "Christchurch",
+        "category": "Cleaning",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Auckland Clean Team",
+        "contact": "0219234561",
+        "email": "aucklandcleanteam@example.com",
+        "location": "Auckland",
+        "category": "Cleaning",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "FreshStart Cleaning",
+        "contact": "0215647382",
+        "email": "freshstartcleaning@example.com",
+        "location": "New Plymouth",
+        "category": "Cleaning",
+        "rating": 4.4,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Eco Pest Solutions",
+        "contact": "0219876543",
+        "email": "ecopestsolutions@example.com",
+        "location": "Christchurch",
+        "category": "Pest Control",
+        "rating": 4.8,
+        "priceRange": "$$"
+    },
+    {
+        "name": "Safe Pest Experts",
+        "contact": "0212746358",
+        "email": "safepestexperts@example.com",
+        "location": "Auckland",
+        "category": "Pest Control",
+        "rating": 4.6,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "BugFree NZ",
+        "contact": "0213642875",
+        "email": "bugfreenz@example.com",
+        "location": "Wellington",
+        "category": "Pest Control",
+        "rating": 4.3,
+        "priceRange": "$"
+    },
+    {
+        "name": "Green Thumb Gardening",
+        "contact": "0212468109",
+        "email": "greenthumbgardening@example.com",
+        "location": "New Plymouth",
+        "category": "Gardening",
+        "rating": 4.7,
+        "priceRange": "$$$"
+    },
+    {
+        "name": "Flourish Landscapes",
+        "contact": "0211928374",
+        "email": "flourishlandscapes@example.com",
+        "location": "Christchurch",
+        "category": "Gardening",
+        "rating": 4.9,
+        "priceRange": "$$"
+    }
+]
