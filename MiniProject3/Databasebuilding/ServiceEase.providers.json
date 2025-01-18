@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8da"
+  },
+  "name": "Sparkle Cleaning Services",
+  "contact": "0216543210",
+  "email": "sparklecleaningservices@example.com",
+  "location": "Auckland",
+  "category": "Cleaning",
+  "rating": 4.5,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8db"
+  },
+  "name": "BrightClean Co.",
+  "contact": "0211234567",
+  "email": "brightcleanco@example.com",
+  "location": "Wellington",
+  "category": "Cleaning",
+  "rating": 4.2,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8dc"
+  },
+  "name": "ShinePro Cleaners",
+  "contact": "0217845269",
+  "email": "shineprocleaners@example.com",
+  "location": "Christchurch",
+  "category": "Cleaning",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8dd"
+  },
+  "name": "Auckland Clean Team",
+  "contact": "0219234561",
+  "email": "aucklandcleanteam@example.com",
+  "location": "Auckland",
+  "category": "Cleaning",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8de"
+  },
+  "name": "FreshStart Cleaning",
+  "contact": "0215647382",
+  "email": "freshstartcleaning@example.com",
+  "location": "New Plymouth",
+  "category": "Cleaning",
+  "rating": 4.4,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8df"
+  },
+  "name": "Eco Pest Solutions",
+  "contact": "0219876543",
+  "email": "ecopestsolutions@example.com",
+  "location": "Christchurch",
+  "category": "Pest Control",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8e0"
+  },
+  "name": "Safe Pest Experts",
+  "contact": "0212746358",
+  "email": "safepestexperts@example.com",
+  "location": "Auckland",
+  "category": "Pest Control",
+  "rating": 4.6,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8e1"
+  },
+  "name": "BugFree NZ",
+  "contact": "0213642875",
+  "email": "bugfreenz@example.com",
+  "location": "Wellington",
+  "category": "Pest Control",
+  "rating": 4.3,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8e2"
+  },
+  "name": "Green Thumb Gardening",
+  "contact": "0212468109",
+  "email": "greenthumbgardening@example.com",
+  "location": "New Plymouth",
+  "category": "Gardening",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fd4731c40e0ca89f8e3"
+  },
+  "name": "Flourish Landscapes",
+  "contact": "0211928374",
+  "email": "flourishlandscapes@example.com",
+  "location": "Christchurch",
+  "category": "Gardening",
+  "rating": 4.9,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e4"
+  },
+  "name": "ProPaint NZ",
+  "contact": "0219871234",
+  "email": "propaintnz@example.com",
+  "location": "Auckland",
+  "category": "Painting",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e5"
+  },
+  "name": "ColorCoat Painters",
+  "contact": "0215639281",
+  "email": "colorcoatpainters@example.com",
+  "location": "Wellington",
+  "category": "Painting",
+  "rating": 4.4,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e6"
+  },
+  "name": "BrightWall Painting",
+  "contact": "0213247856",
+  "email": "brightwallpainting@example.com",
+  "location": "Christchurch",
+  "category": "Painting",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e7"
+  },
+  "name": "Auckland Painters Pro",
+  "contact": "0216583942",
+  "email": "aucklandpainterspro@example.com",
+  "location": "Auckland",
+  "category": "Painting",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e8"
+  },
+  "name": "HomeFix NZ",
+  "contact": "0211234569",
+  "email": "homefixnz@example.com",
+  "location": "Wellington",
+  "category": "Renovation & Home Repair",
+  "rating": 4.5,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8e9"
+  },
+  "name": "Elite Renovators",
+  "contact": "0217896543",
+  "email": "eliterenovators@example.com",
+  "location": "New Plymouth",
+  "category": "Renovation & Home Repair",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8ea"
+  },
+  "name": "PipeWorks Plumbing",
+  "contact": "0216549873",
+  "email": "pipeworksplumbing@example.com",
+  "location": "Auckland",
+  "category": "Plumbing",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8eb"
+  },
+  "name": "FlowFix Plumbers",
+  "contact": "0217845692",
+  "email": "flowfixplumbers@example.com",
+  "location": "Christchurch",
+  "category": "Plumbing",
+  "rating": 4.4,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8ec"
+  },
+  "name": "AquaPro Plumbing",
+  "contact": "0217983451",
+  "email": "aquaprop@example.com",
+  "location": "Wellington",
+  "category": "Plumbing",
+  "rating": 4.5,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fdd731c40e0ca89f8ed"
+  },
+  "name": "QuickFix Plumbers",
+  "contact": "0219867542",
+  "email": "quickfixplumbers@example.com",
+  "location": "New Plymouth",
+  "category": "Plumbing",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8ee"
+  },
+  "name": "Glam Nails",
+  "contact": "0216547821",
+  "email": "glamnails@example.com",
+  "location": "Auckland",
+  "category": "Nails",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8ef"
+  },
+  "name": "Polished Perfection",
+  "contact": "0218476592",
+  "email": "polishedperfection@example.com",
+  "location": "Christchurch",
+  "category": "Nails",
+  "rating": 4.7,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f0"
+  },
+  "name": "Auckland Nail Studio",
+  "contact": "0212387654",
+  "email": "aucklandnailstudio@example.com",
+  "location": "Auckland",
+  "category": "Nails",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f1"
+  },
+  "name": "Glow Nail Bar",
+  "contact": "0214561238",
+  "email": "glownailbar@example.com",
+  "location": "Wellington",
+  "category": "Nails",
+  "rating": 4.9,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f2"
+  },
+  "name": "Crafted Woodworks",
+  "contact": "0217845632",
+  "email": "craftedwoodworks@example.com",
+  "location": "Wellington",
+  "category": "Carpentry",
+  "rating": 4.5,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f3"
+  },
+  "name": "Precision Carpentry",
+  "contact": "0216754839",
+  "email": "precisioncarpentry@example.com",
+  "location": "Christchurch",
+  "category": "Carpentry",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f4"
+  },
+  "name": "Glow Beauty Studio",
+  "contact": "0218945726",
+  "email": "glowbeautystudio@example.com",
+  "location": "Auckland",
+  "category": "Women's Salon Services",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f5"
+  },
+  "name": "Bliss Women's Salon",
+  "contact": "0214589631",
+  "email": "blisswomenssalon@example.com",
+  "location": "New Plymouth",
+  "category": "Women's Salon Services",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f6"
+  },
+  "name": "Groom Barber Co.",
+  "contact": "0214578963",
+  "email": "groombarberco@example.com",
+  "location": "Wellington",
+  "category": "Men's Salon Services",
+  "rating": 4.5,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67813fe9731c40e0ca89f8f7"
+  },
+  "name": "The Men's Lounge",
+  "contact": "0218745632",
+  "email": "themenslounge@example.com",
+  "location": "Christchurch",
+  "category": "Men's Salon Services",
+  "rating": 4.8,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8fa"
+  },
+  "name": "EcoScape Gardening",
+  "contact": "0216542387",
+  "email": "ecoscapegardening@example.com",
+  "location": "Auckland",
+  "category": "Gardening",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8fb"
+  },
+  "name": "Verdant Landscapes",
+  "contact": "0218746523",
+  "email": "verdantlandscapes@example.com",
+  "location": "New Plymouth",
+  "category": "Gardening",
+  "rating": 4.6,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8fc"
+  },
+  "name": "PrimeCoat Painting",
+  "contact": "0213569874",
+  "email": "primecoatpainting@example.com",
+  "location": "Christchurch",
+  "category": "Painting",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8fd"
+  },
+  "name": "Fine Finish Painters",
+  "contact": "0219485726",
+  "email": "finefinishpainters@example.com",
+  "location": "Wellington",
+  "category": "Painting",
+  "rating": 4.9,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8fe"
+  },
+  "name": "TopTier Home Repair",
+  "contact": "0214356729",
+  "email": "toptierhomerepair@example.com",
+  "location": "Auckland",
+  "category": "Renovation & Home Repair",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f8ff"
+  },
+  "name": "QuickFix Home Services",
+  "contact": "0216574839",
+  "email": "quickfixhomeservices@example.com",
+  "location": "New Plymouth",
+  "category": "Renovation & Home Repair",
+  "rating": 4.8,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f900"
+  },
+  "name": "UrbanFlow NZ",
+  "contact": "0218934762",
+  "email": "urbanflownz@example.com",
+  "location": "Wellington",
+  "category": "Plumbing",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f901"
+  },
+  "name": "Total Plumbing Solutions",
+  "contact": "0213567842",
+  "email": "totalplumbingsolutions@example.com",
+  "location": "Christchurch",
+  "category": "Plumbing",
+  "rating": 4.5,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f902"
+  },
+  "name": "Urban Nail Lounge",
+  "contact": "0216789432",
+  "email": "urbannaillounge@example.com",
+  "location": "Wellington",
+  "category": "Nails",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "67814730731c40e0ca89f903"
+  },
+  "name": "Pretty Nails Studio",
+  "contact": "0217856349",
+  "email": "prettynailsstudio@example.com",
+  "location": "New Plymouth",
+  "category": "Nails",
+  "rating": 4.9,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f905"
+  },
+  "name": "CraftMasters Carpentry",
+  "contact": "0214527839",
+  "email": "craftmasterscarpentry@example.com",
+  "location": "Auckland",
+  "category": "Carpentry",
+  "rating": 4.8,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f906"
+  },
+  "name": "Urban Woodworks NZ",
+  "contact": "0216873495",
+  "email": "urbanwoodworksnz@example.com",
+  "location": "New Plymouth",
+  "category": "Carpentry",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f907"
+  },
+  "name": "Radiance Beauty NZ",
+  "contact": "0217896543",
+  "email": "radiancebeautynz@example.com",
+  "location": "Christchurch",
+  "category": "Women's Salon Services",
+  "rating": 4.9,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f908"
+  },
+  "name": "PerfectGlow Salon",
+  "contact": "0218745639",
+  "email": "perfectglowsalon@example.com",
+  "location": "Wellington",
+  "category": "Women's Salon Services",
+  "rating": 4.6,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f909"
+  },
+  "name": "Gentlemen's Grooming Co.",
+  "contact": "0215478936",
+  "email": "gentlemensgrooming@example.com",
+  "location": "Auckland",
+  "category": "Men's Salon Services",
+  "rating": 4.7,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f90a"
+  },
+  "name": "SharpLook Barbers",
+  "contact": "0217864539",
+  "email": "sharplookbarbers@example.com",
+  "location": "New Plymouth",
+  "category": "Men's Salon Services",
+  "rating": 4.8,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f90b"
+  },
+  "name": "Verdant Bliss Landscaping",
+  "contact": "0216583742",
+  "email": "verdantblisslandscaping@example.com",
+  "location": "Auckland",
+  "category": "Gardening",
+  "rating": 4.9,
+  "priceRange": "$$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f90c"
+  },
+  "name": "EliteWood Co.",
+  "contact": "0213498721",
+  "email": "elitewoodco@example.com",
+  "location": "Christchurch",
+  "category": "Carpentry",
+  "rating": 4.8,
+  "priceRange": "$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f90d"
+  },
+  "name": "Nail Bliss Co.",
+  "contact": "0215467839",
+  "email": "nailblissco@example.com",
+  "location": "Wellington",
+  "category": "Nails",
+  "rating": 4.7,
+  "priceRange": "$$"
+},
+{
+  "_id": {
+    "$oid": "6781473f731c40e0ca89f90e"
+  },
+  "name": "Urban Builders NZ",
+  "contact": "0217894563",
+  "email": "urbanbuildersnz@example.com",
+  "location": "Auckland",
+  "category": "Renovation & Home Repair",
+  "rating": 4.6,
+  "priceRange": "$$"
+}]
