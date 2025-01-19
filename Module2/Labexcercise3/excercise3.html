@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flexbox Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    main {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: row; /* Horizontal layout */
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .box {
+      width: 30%;
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    /* Responsive design: Small screens (mobile-first approach) */
+    @media (max-width: 600px) {
+      main {
+        flex-direction: column; /* Stack the boxes vertically */
+        padding: 10px;
+      }
+
+      .box {
+        width: 100%; /* Full width for each box */
+        margin-bottom: 20px;
+      }
+    }
+
+    /* For medium-sized screens (tablets) */
+    @media (min-width: 601px) and (max-width: 960px) {
+      .box {
+        width: 45%; /* Make boxes take 45% of the width on tablets */
+      }
+    }
+
+    /* For larger screens (desktops and up) */
+    @media (min-width: 961px) {
+      .box {
+        width: 30%; /* Default width of 30% for large screens */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Flexbox Layout</h1>
+  </header>
+
+  <main>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </main>
+
+  <footer>
+    <p>Contact info: myemail@example.com</p>
+  </footer>
+
+</body>
+</html>
