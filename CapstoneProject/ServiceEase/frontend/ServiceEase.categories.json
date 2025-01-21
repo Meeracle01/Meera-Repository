@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d819f"
+  },
+  "name": "Cleaning",
+  "description": "Professional cleaning services for homes and offices"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a0"
+  },
+  "name": "Pest Control",
+  "description": "Effective pest control solutions"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a1"
+  },
+  "name": "Gardening",
+  "description": "Gardening and landscaping services"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a2"
+  },
+  "name": "Painting",
+  "description": "Interior and exterior painting services"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a3"
+  },
+  "name": "Renovation & Home Repair",
+  "description": "Renovation and home repair experts"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a4"
+  },
+  "name": "Plumbing",
+  "description": "Plumbing services for residential and commercial properties"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a5"
+  },
+  "name": "Nails",
+  "description": "Professional nail care services"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a6"
+  },
+  "name": "Carpentry",
+  "description": "Woodwork and carpentry services"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a7"
+  },
+  "name": "Women's Salon Services",
+  "description": "Salon services for women at home"
+},
+{
+  "_id": {
+    "$oid": "67813c5b95edaa46290d81a8"
+  },
+  "name": "Men's Salon Services",
+  "description": "Salon services for men at home"
+}]
